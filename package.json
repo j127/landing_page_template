@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "license": "UNLICENSE",
     "scripts": {
+        "format": "prettier --write '**/*.{md,mdx,ts,js,jsx,tsx,yaml,yml,json,html,css,scss}'",
         "clean": "rm -rf ./dist/*",
         "start": "yarn clean && parcel ./src/index.html",
         "build": "yarn clean && parcel build ./src/index.html",
