@@ -2,11 +2,11 @@
 
 Features:
 
-- Use TypeScript of JavaScript
+- Use TypeScript or JavaScript
 - Use SCSS or CSS
 - Runs tasks on staged files automatically (formatting, etc.)
-- Staging environment
-- Deploys to Netlify (free)
+- Optionally deploy to a staging environment
+- Deploys production build to Netlify (free)
 
 See the `package.json` file for a list of available scripts.
 
