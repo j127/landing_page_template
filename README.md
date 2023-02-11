@@ -4,8 +4,9 @@ Features:
 
 - Use TypeScript of JavaScript
 - Use SCSS or CSS
-- Deploys to Netlify (free)
+- Runs tasks on staged files automatically (formatting, etc.)
 - Staging environment
+- Deploys to Netlify (free)
 
 See the `package.json` file for a list of available scripts.
 
