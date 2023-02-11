@@ -9,6 +9,7 @@
         "build": "yarn clean && parcel build ./src/index.html",
         "deploy:staging": "yarn build && netlify deploy --dir=dist",
         "deploy": "yarn build && netlify deploy --prod --dir=dist",
+        "netlify:login": "netlify login",
         "netlify:link": "netlify link",
         "prepare": "husky install"
     },
