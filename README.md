@@ -11,6 +11,14 @@ Features:
 
 See the `package.json` file for a list of available scripts.
 
+First, install `yarn` if you don't have it:
+
+```text
+npm i -g yarn
+```
+
+Then install dependencies and run the local server at `http://localhost:1234`:
+
 ```text
 yarn
 yarn start
