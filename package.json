@@ -9,11 +9,19 @@
         "build": "yarn clean && parcel build ./src/index.html",
         "deploy:staging": "yarn build && netlify deploy --dir=dist",
         "deploy": "yarn build && netlify deploy --prod --dir=dist",
-        "netlify:link": "netlify link"
+        "netlify:link": "netlify link",
+        "prepare": "husky install"
+    },
+    "lint-staged": {
+        "**/*.{js,jsx,ts,tsx,json,md,mdx,yml,yaml,html,css,scss}": [
+            "yarn format"
+        ]
     },
     "dependencies": {},
     "devDependencies": {
         "@parcel/transformer-sass": "2.8.3",
+        "husky": "^8.0.0",
+        "lint-staged": "^13.1.1",
         "netlify-cli": "^12.12.0",
         "parcel": "^2.8.3",
         "parcel-reporter-static-files-copy": "^1.5.0",
