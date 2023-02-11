@@ -5,6 +5,7 @@ Features:
 - Use TypeScript of JavaScript
 - Use SCSS or CSS
 - Deploys to Netlify (free)
+- Staging environment
 
 See the `package.json` file for a list of available scripts.
 

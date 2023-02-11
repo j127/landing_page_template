@@ -4,10 +4,10 @@
     "license": "UNLICENSE",
     "scripts": {
         "clean": "rm -rf ./dist/*",
-        "build": "parcel build ./src/index.html",
-        "start": "parcel ./src/index.html",
-        "deploy:staging": "netlify deploy --dir=dist",
-        "deploy": "netlify deploy --prod --dir=dist",
+        "start": "yarn clean && parcel ./src/index.html",
+        "build": "yarn clean && parcel build ./src/index.html",
+        "deploy:staging": "yarn build && netlify deploy --dir=dist",
+        "deploy": "yarn build && netlify deploy --prod --dir=dist",
         "netlify:link": "netlify link"
     },
     "dependencies": {},
