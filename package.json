@@ -21,6 +21,7 @@
     "dependencies": {},
     "devDependencies": {
         "@parcel/transformer-sass": "2.8.3",
+        "@types/node": "^18.13.0",
         "husky": "^8.0.0",
         "lint-staged": "^13.1.1",
         "netlify-cli": "^12.12.0",
