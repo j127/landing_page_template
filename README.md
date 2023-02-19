@@ -36,3 +36,5 @@ You won't have to run those again. To deploy after that, run this command:
 ```text
 yarn deploy
 ```
+
+[Live demo](https://parcel-landing-page.netlify.app/)
