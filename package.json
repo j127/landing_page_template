@@ -1,6 +1,6 @@
 {
     "name": "parcel_example",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "Unlicense",
     "scripts": {
         "format": "prettier --write '**/*.{md,mdx,ts,js,jsx,tsx,yaml,yml,json,html,css,scss}'",
