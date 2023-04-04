@@ -26,10 +26,3 @@ pg/
 .cache/
 .parcel-cache/
 .mypy_cache/
-
-# phoenix
-deps/
-_build/
-.elixir_ls
-assets/
-priv/
