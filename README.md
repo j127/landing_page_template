@@ -1,5 +1,7 @@
 # Parcel Landing Page Example
 
+Note: in 2024, I'd recommend using [Astro](https://astro.build/) for simple landing pages instead of this, but if you don't have a couple of hours to learn Astro, then this still works.
+
 Features:
 
 - Use TypeScript or JavaScript
