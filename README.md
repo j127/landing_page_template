@@ -26,7 +26,7 @@ yarn
 yarn start
 ```
 
-When ready to deploy, log in to [Cloudflare](https://cloudflare.com/) and log in via the terminal:
+When ready to deploy, create a [Cloudflare](https://cloudflare.com/) account and log in via the terminal:
 
 ```text
 wrangler login
@@ -40,4 +40,4 @@ yarn deploy
 
 You can then set up a custom domain or other settings in the Cloudflare Pages dashboard.
 
-[Live demo](https://parcel-landing-page.netlify.app/)
+[Live demo](https://parcel-landing-page.pages.dev/)
