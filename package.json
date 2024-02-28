@@ -7,10 +7,7 @@
         "clean": "rm -rf ./dist/*",
         "start": "yarn clean && parcel ./src/index.html",
         "build": "yarn clean && parcel build --no-source-maps ./src/index.html",
-        "deploy:staging": "yarn build && netlify deploy --dir=dist",
-        "deploy": "yarn build && netlify deploy --prod --dir=dist",
-        "netlify:login": "netlify login",
-        "netlify:link": "netlify link",
+        "deploy": "yarn build && wrangler pages deploy dist",
         "prepare": "husky"
     },
     "lint-staged": {
@@ -18,17 +15,16 @@
             "yarn format"
         ]
     },
-    "dependencies": {},
     "devDependencies": {
         "@parcel/transformer-sass": "^2.11.0",
-        "@types/node": "^20.11.19",
+        "@types/node": "^20.11.21",
         "husky": "^9.0.11",
         "lint-staged": "^15.2.2",
-        "netlify-cli": "^17.16.4",
         "parcel": "^2.11.0",
         "parcel-reporter-static-files-copy": "^1.5.3",
         "prettier": "^3.2.5",
         "sass": "^1.71.1",
-        "typescript": "^5.3.3"
+        "typescript": "^5.3.3",
+        "wrangler": "^3.30.0"
     }
 }

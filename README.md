@@ -9,7 +9,7 @@ Features:
 - Quickly include Google Fonts
 - Runs tasks on staged files automatically (formatting, etc.)
 - Optionally deploy to a staging environment
-- Deploys production build to Netlify (free)
+- Deploys production build to [Cloudflare Pages](https://pages.cloudflare.com/) (free)
 
 See the `package.json` file for a list of available scripts.
 
@@ -26,17 +26,18 @@ yarn
 yarn start
 ```
 
-When ready to deploy, get your Netlify credentials ready and run these commands once:
+When ready to deploy, log in to [Cloudflare](https://cloudflare.com/) and log in via the terminal:
 
 ```text
-yarn netlify:login
-yarn netlify:link
+wrangler login
 ```
 
-You won't have to run those again. To deploy after that, run this command:
+To deploy after that, run this command:
 
 ```text
 yarn deploy
 ```
+
+You can then set up a custom domain or other settings in the Cloudflare Pages dashboard.
 
 [Live demo](https://parcel-landing-page.netlify.app/)
